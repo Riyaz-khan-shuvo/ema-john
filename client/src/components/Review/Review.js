@@ -27,7 +27,7 @@ const Review = () => {
         const productKeys = Object.keys(savedCart);
 
 
-        fetch('http://localhost:5000/productsByKeys', {
+        fetch('https://fierce-savannah-15358.herokuapp.com/productsByKeys', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
